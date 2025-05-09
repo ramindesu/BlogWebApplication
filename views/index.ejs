@@ -1,0 +1,20 @@
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h1>recent posts</h1>
+      <a href="/compose" class="btn btn-primary">compose new posts</a>
+    </div>
+
+    <% if (posts.length === 0) { %>
+      <p class="text-muted"></p>
+    <% } else { %>
+      <% posts.forEach(function(post) { %>
+        <div class="card mb-3">
+          <div class="card-body">
+            <h3><%= post.title %></h3>
+            <p><%= post.content.length > 100 ? post.content.substring(0, 100) + '...' : post.content %></p>
+            <a href="/posts/<%= post.id %>" class="btn btn-sm btn-outline-secondary">reading more</a>
+          </div>
+        </div>
+      <% }); %>
+    <% } %>
+  </div>
