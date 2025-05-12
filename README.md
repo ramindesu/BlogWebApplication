@@ -60,13 +60,6 @@ blog-project/
 
 ⸻
 
-📸 Preview 
-![home](/Users/mohammadi/Downloads/projects/blog/public/images/Screenshot 2025-05-11 at 10.00.44 PM.png)
-![composePage](/Users/mohammadi/Downloads/projects/blog/public/images/Screenshot 2025-05-11 at 10.01.18 PM.png)
-![testing](/Users/mohammadi/Downloads/projects/blog/public/images/Screenshot 2025-05-11 at 10.01.23 PM.png)
-![result](/Users/mohammadi/Downloads/projects/blog/public/images/Screenshot 2025-05-11 at 10.01.27 PM.png)
-
-⸻
 
 📌 Future Improvements
 	•	✅ Add a database to store posts (e.g., MongoDB)
